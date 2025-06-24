@@ -62,9 +62,9 @@ content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Student Summit Event Coordinator
+        #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: 2022
         additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
@@ -73,9 +73,9 @@ content:
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          Event for all students at the Academy of Science, Math, Technoloogy Early College High School
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Organized a student summit including field games, breakout sessions, and catering. Oversaw transitions, set up, and team coordination across all parts of the event.
   - title: Experience
     layout: list
     content:
