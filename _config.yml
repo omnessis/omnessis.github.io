@@ -91,7 +91,7 @@ content:
           - Maintained a balanced cash drawer and handled daily transactions  
           - Participated in business meetings and worked across departments  
           - Provided strong customer service and financial guidance 
-    content: 
+    #content: 
       - layout: left
         title: West Community College
         sub_title: Payroll Assistant (Student Worker)
@@ -115,7 +115,7 @@ content:
          # Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
               Pursuing a degree in Data Science, with the goal of becoming an actuary.
-    #content:
+    content:
       - layout: top-left
         title: West Shore Community College
         sub_title: Associate’s Degree in Science 
@@ -124,16 +124,27 @@ content:
             # Short institution or course description (optional)
             #description: | # this will include new lines to allow paragraphs
              #     Pursuing a degree in [Your Major or Area of Study], with the goal of becoming an actuary.
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  - title: Skills
+    layout: list
+    content:  # this will include new lines to allow paragraphs
+    - layout: left
+      title: Technical Skills
+      description: >
+        Python, R, Git, VS Code, Microsoft Excel, Microsoft Word, Docubase, Jenzabar
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+    - layout: left
+      title: Analytical & Professional Skills
+      description: >
+        Data Analysis, Problem Solving, Statistical Reasoning, Customer Service, Cash Handling, Time Management, Communication
+
+    - layout: left
+      title: Soft Skills
+      description: >
+        Teamwork, Leadership, Adaptability, Attention to Detail, Fast Learner, Public Speaking
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: References on request 
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
