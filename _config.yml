@@ -115,7 +115,7 @@ content:
          # Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
               Pursuing a degree in Data Science, with the goal of becoming an actuary.
-    content:
+    #content:
       - layout: top-left
         title: West Shore Community College
         sub_title: Associate’s Degree in Science 
