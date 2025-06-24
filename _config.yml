@@ -66,12 +66,12 @@ content:
         #link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: 2022
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - #title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+          - #title:  Github page for project (eg. sproogen/modern-resume-theme)
+            #icon: fab fa-github
+            #url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
           Event for all students at the Academy of Science, Math, Technoloogy Early College High School
         description: | # this will include new lines to allow paragraphs
@@ -80,25 +80,50 @@ content:
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: West Shore Bank
+        sub_title: Persoonal Banking Representative 1
+        caption: June 2023 - Present
+        #link: Link to company (optional)
         quote: >
-          Short description of the company (optional)
+          West Shore Bank is a local, community based bank
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - Helped customers open, manage, and close all types of accounts  
+          - Maintained a balanced cash drawer and handled daily transactions  
+          - Participated in business meetings and worked across departments  
+          - Provided strong customer service and financial guidance 
+    content: 
+      - layout: left
+        title: West Community College
+        sub_title: Payroll Assistant (Student Worker)
+        caption: October 2022 - May 2024
+        #link: Link to company (optional)
+        #quote: >
+          #West Shore Bank is a local, community based bank
+        description: | # this will include new lines to allow paragraphs
+           - Updated and maintained employee payroll and HR records  
+           - Handled front desk responsibilities and answered inquiries  
+           - Used Excel, Word, Docubase, and Jenzabar to manage records  
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
+        title: Michigan State University
+        sub_title: Bachelor’s Degree in Data Science (In Progress)
+        caption: Expected May 2026
+        #quote: >
+         # Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          Description of qualification
+              Pursuing a degree in Data Science, with the goal of becoming an actuary.
+    content:
+      - layout: top-left
+        title: West Shore Community College
+        sub_title: Associate’s Degree in Science 
+        caption: September 2022 - May 2024
+            #quote: >
+            # Short institution or course description (optional)
+            #description: | # this will include new lines to allow paragraphs
+             #     Pursuing a degree in [Your Major or Area of Study], with the goal of becoming an actuary.
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
